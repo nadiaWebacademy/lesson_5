@@ -3,6 +3,7 @@
     height: 400px;
     background: red;
     margin: 0 auto;
+    position: relative;
 }
 
 .child {
@@ -10,5 +11,17 @@
     left: 0;
     top: 0;
     border: 1px solid aqua;
+    background: green;
 }
 
+.test {
+    position: relative;
+    display: inline-block;
+    background: aqua;
+    width: 100px;
+}
+
+.test:nth-child(3) {
+    top: 40px;
+    left: 40px;      /*count from parent, parent=1, test1=2*/
+}
