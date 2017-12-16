@@ -1,0 +1,14 @@
+.parent {
+    max-width: 960px;
+    height: 400px;
+    background: red;
+    margin: 0 auto;
+}
+
+.child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid aqua;
+}
+
